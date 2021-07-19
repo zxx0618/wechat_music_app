@@ -1,0 +1,91 @@
+@import "/static/iconfont/iconfont.wxss";
+.recommendSong .header{
+    position: relative;
+    width: 100%;
+    height: 300rpx;
+}
+
+/* 头部图片 */
+.recommendSong .header image{
+    width: 100%;
+    height: 100%;
+}
+
+/* 头部图片日期 */
+.recommendSong .header .date{
+    position: absolute;
+    width: 300rpx;
+    height: 100rpx;
+    left: 50%;
+    top: 50%;
+    margin-left: -150rpx;
+    margin-top: -50rpx;
+    /* border: 1rpx solid red; */
+    text-align: center;
+    line-height: 100rpx;
+    color: #fff;
+}
+
+.header .date .day{
+    font-size: 38rpx;
+}
+
+/* 列表区域 */
+.ListContainer {
+    position: relative;
+    top: -20rpx;
+    padding: 0 20rpx;
+    border-radius:30rpx;
+    background: #fff;
+}
+
+
+.ListHeader{
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+.ListHeader .changemore{
+    float: right;
+}
+
+/* 内容区 */
+.listScroll {
+    height: calc(100vh - 380rpx);
+}
+.scrollItem {
+    display: flex;
+    position: relative;
+    margin-bottom: 20rpx;
+}
+.scrollItem image{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 8rpx;
+}
+
+.musicInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rpx;
+}
+.musicInfo text{
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 24rpx;
+    max-width: 500rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.scrollItem .iconfont{
+    position: absolute;
+    width: 80rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    right: 0;
+    /* background-color: red; */
+    text-align: right;
+}
+

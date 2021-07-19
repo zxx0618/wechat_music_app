@@ -1,0 +1,16 @@
+<import src="/template/myTemplate/myTemplate.wxml"/>
+
+<view class="otherContainer">
+    <!--测试模板-->
+    <view class="otherTitle">测试使用模板</view>
+    <template is="myTmp" data="{{...person}}"/>
+    <!--ES6的新特性，三点运算符，可以拆包数组或者对象-->
+      
+    <view>*************************************</view>
+    <view>*************************************</view>
+    <!--测试获取用户唯一标识openId-->
+    <view class="otherTitle">获取用户唯一标识openId</view>
+    <button bindtap="hadleGetOpenId">获取openId</button>
+    
+</view>
+  

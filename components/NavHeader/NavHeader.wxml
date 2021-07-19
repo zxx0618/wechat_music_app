@@ -1,0 +1,12 @@
+<!--components/NavHeader/NavHeader.wxml-->
+<!--推荐歌曲区域-->
+  <view class="recommendContainer">
+    <view class="header">
+      <text class="title">{{title}}</text>
+      <view>
+        <text>{{nav}}</text>
+        <text class="more">查看更多</text>
+      </view>
+    </view>
+
+  </view>
